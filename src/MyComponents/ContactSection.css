@@ -1,0 +1,40 @@
+.contact-section {
+    background-color: #000000; /* Dark background */
+    color: #ffffff; /* Light text for contrast */
+    text-align: center;
+    padding: 2rem;
+    border-radius: 0px; /* Smooth edges */
+  }
+  
+  .contact-message {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 1rem; /* Space below the message */
+  }
+  
+  .contact-email {
+    font-size: 1.5rem; /* Prominent email text */
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-or {
+    font-size: 1rem;
+    margin: 1rem 0; /* Space around 'or' text */
+  }
+  
+  .contact-button {
+    display: inline-block;
+    background-color: #007bff; /* Button color */
+    color: #ffffff; /* Button text color */
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }

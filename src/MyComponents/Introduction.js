@@ -7,7 +7,7 @@ const Introduction = () => {
       {/* Introductory Greeting */}
       <p className="large">
         <span style={{ color: '#e63946', fontWeight: 'bold' }}>Cześć!</span>{' '}
-        I'm <strong>Ajay</strong>, an{' '}
+        I'm Ajay, an{' '}
         <span style={{ color: '#e63946' }}>AI & Gameplay</span> Engineer
       </p>
 
