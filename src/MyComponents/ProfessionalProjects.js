@@ -13,12 +13,12 @@ const ProfessionalProjects = () => {
         description={
           <div>
             <p>
-              This is a <strong>bold</strong> and <em>italic</em> description example.
+              Worked at Rockstar Games as an Associate AI/Gameplay Programmer on Grand Theft Auto 6.
             </p>
-            <ul>
+            {/* <ul>
               <li>Point 1</li>
               <li>Point 2</li>
-            </ul>
+            </ul> */}
           </div>
         }
         details={[

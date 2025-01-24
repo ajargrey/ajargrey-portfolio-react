@@ -34,7 +34,8 @@ const ProjectCard = ({ title, subtitle, videoUrl, description, details }) => {
               <ul>
                 {details.map((detail, index) => (
                   <li key={index}>
-                    {detail.label}: {detail.value}
+                    <span className="label">{detail.label}:</span>
+                    <span className="value">{detail.value}</span>
                   </li>
                 ))}
               </ul>
