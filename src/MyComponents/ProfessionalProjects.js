@@ -28,6 +28,7 @@ const ProfessionalProjects = () => {
           { label: 'Engine', value: <strong>RAGE/C++</strong> },
           { label: 'Duration', value: <>2022-2023<strong>*</strong></> },
         ]}
+        note = {<p><b>*</b>Left Rockstar Games to focus on personal projects and independent game development.</p>}
       />
     </div>
   );

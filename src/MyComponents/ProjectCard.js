@@ -1,7 +1,8 @@
 import React from 'react';
 import './ProjectCard.css';
+import ProjectNote from './ProjectNote';
 
-const ProjectCard = ({ title, subtitle, videoUrl, description, details }) => {
+const ProjectCard = ({ title, subtitle, videoUrl, description, details, note }) => {
   return (
     <div className="project-card">
       {/* Title with Optional Subtitle */}
@@ -43,6 +44,10 @@ const ProjectCard = ({ title, subtitle, videoUrl, description, details }) => {
           </div>
         </div>
       </div>
+
+      {/* Note */}
+      {note && <ProjectNote text={note} />}
+
     </div>
   );
 };

@@ -1,0 +1,14 @@
+.note {
+    font-size: 1.2rem;
+    /* font-style: italic; */
+    color: #333; /* Adjust color as per your theme */
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    .note {
+      font-size: 0.9rem;
+      margin-top: 1rem;
+    }
+  }
