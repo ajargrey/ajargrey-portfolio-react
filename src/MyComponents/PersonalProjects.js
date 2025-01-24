@@ -78,11 +78,11 @@ const PersonalProjects = () => {
             </p>
             {<ul>
 
-              <li><strong>Modified</strong> Engine's <strong>source code</strong> to bypass <strong>limitations of post-process effects</strong>, 
-              which were insufficient for achieving the desired <strong>manga-style shading</strong>.</li>
+              <li><strong>Modified</strong> Engine's <strong>source code</strong> to bypass <strong>limitations of post-process effects</strong>,
+                which were insufficient for achieving the desired <strong>manga-style shading</strong>.</li>
 
-              <li>Integrated the <strong>custom shading</strong> directly into the <strong>rendering pipeline</strong> 
-              for <strong>optimal performance</strong> and <strong>visual fidelity</strong>.</li>
+              <li>Integrated the <strong>custom shading</strong> directly into the <strong>rendering pipeline</strong>
+                for <strong>optimal performance</strong> and <strong>visual fidelity</strong>.</li>
 
               <li>Makes use of Unreal's <strong>Gameplay Ability System</strong> for <strong>combat</strong> and <strong>locomotion</strong></li>
 
@@ -96,6 +96,42 @@ const PersonalProjects = () => {
         note={<p></p>}
       />
 
+      <ProjectCard
+        title="RECREATED POCKETPAIR'S PALWORLD"
+        subtitle="(Fan Project)"
+        videoUrl="https://www.youtube.com/embed/unxBeUS69bg"
+        description={
+          <div>
+            <p>
+              Recreated mechanics from PalWorld including:
+            </p>
+            {<ul>
+
+              <li>Engineered a <strong>system</strong> for rapidly <strong>creating new pals</strong> and <strong>attack moves</strong>, boosting development effieciency</li>
+
+              <li><strong>Recreated</strong> more than 30 <strong>moves</strong> from the original game, with <strong>distinct properties</strong>, using the <strong>flexible move system</strong></li>
+
+              <li>AI systems allow pals to have <strong>roles</strong> such as <strong>allies, foes</strong>, and <strong>neutral</strong> with various <strong>state machines</strong> 
+              for <strong>combat, wander, captured</strong> etc</li>
+
+              <li><strong>Inventory</strong> and <strong>crafting</strong> systems, <strong>resource gathering, base-building, combat</strong> and <strong>weapon</strong> systems, 
+              <strong>capture</strong> systems</li>
+
+              <li>Uses <strong>Time-slicing</strong> and other performance enhancing techniques</li>
+
+              <li>Built <strong>region-based</strong> pal <strong>spawning</strong> and <strong>map-editing tools</strong></li>
+
+              and a lot more
+
+
+            </ul>}
+          </div>
+        }
+        details={[
+          { label: 'Engine', value: <div><strong> Unreal Engine 5 (C++)</strong></div> },
+        ]}
+        note={<p></p>}
+      />
 
     </div>
   );

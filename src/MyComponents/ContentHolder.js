@@ -3,6 +3,8 @@ import WebsiteHeader from './WebsiteHeader'
 import Introduction from './Introduction'
 import ProfessionalProjects from './ProfessionalProjects';
 import PersonalProjects from './PersonalProjects';
+import OldProjects from './OldProjects';
+import SkillBarHolder from './SkillBarHolder';
 
 
 export default function ContentHolder() {
@@ -20,6 +22,8 @@ export default function ContentHolder() {
           <Introduction />
           <ProfessionalProjects />
           <PersonalProjects />
+          <OldProjects />
+          <SkillBarHolder />
         </div>
       </div>
     </div>
