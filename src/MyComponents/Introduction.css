@@ -1,0 +1,37 @@
+.introduction {
+    background-color: #ffffff;
+    padding: 3rem 6rem;
+    font-family: ProximaNovaRegular, sans-serif;
+  }
+  
+  .introduction p {
+    margin: 1rem 0;
+    line-height: 1.5;
+  }
+  
+  .introduction p.large {
+    font-size: 1.8rem; /* Original size */
+  }
+  
+  .introduction p.medium {
+    font-size: 1.44rem; /* Original size */
+  }
+  
+  .introduction p.small {
+    font-size: 1.2rem; /* Original size */
+  }
+  
+  @media (max-width: 768px) {
+    .introduction {
+      padding: 1rem 2rem; /* Adjust padding */
+    }
+    .introduction p.large {
+      font-size: 1.35rem; /* 0.75x of 1.8rem */
+    }
+    .introduction p.medium {
+      font-size: 1.08rem; /* 0.75x of 1.44rem */
+    }
+    .introduction p.small {
+      font-size: 0.9rem; /* 0.75x of 1.2rem */
+    }
+  }

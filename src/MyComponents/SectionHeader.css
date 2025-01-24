@@ -1,0 +1,15 @@
+.section-header {
+    text-align: center;
+    padding: 1.5rem 0;
+    font-family: ProximaNovaCondensedBlack, sans-serif;
+    font-size: 2.25rem; /* Original font size */
+    text-transform: uppercase;
+    color: #000;
+  }
+  
+  /* Media query for smaller devices */
+  @media (max-width: 768px) {
+    .section-header {
+      font-size: 1.6875rem; /* 0.75x of 2.25rem */
+    }
+  }

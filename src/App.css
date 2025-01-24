@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+
+@font-face {
+  font-family: 'ProximaNovaRegular';
+  src: url(./assets/fonts/ProximaNova-Regular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'ProximaNovaExtraCondensedExtraBold';
+  src: url('./assets/fonts/Proxima Nova Extra Condensed Extrabold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'ProximaNovaCondensedBlack';
+  src: url('./assets/fonts/Proxima Nova Condensed Black.otf') format('opentype');
+}
