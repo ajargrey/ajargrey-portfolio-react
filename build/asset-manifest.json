@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ajargrey-portfolio-react/static/css/main.22722d79.css",
+    "main.js": "/ajargrey-portfolio-react/static/js/main.1cd1c60f.js",
+    "static/js/453.9afd9835.chunk.js": "/ajargrey-portfolio-react/static/js/453.9afd9835.chunk.js",
+    "static/media/CSharpLogo.png": "/ajargrey-portfolio-react/static/media/CSharpLogo.a57ed88cd9d39cabbd84.png",
+    "static/media/CPlusPlusLogo.png": "/ajargrey-portfolio-react/static/media/CPlusPlusLogo.0fd9a8b06898bf6e6326.png",
+    "static/media/UnrealEngineLogo.png": "/ajargrey-portfolio-react/static/media/UnrealEngineLogo.b079dae0ebc7c8a742e8.png",
+    "static/media/ProximaNova-Regular.otf": "/ajargrey-portfolio-react/static/media/ProximaNova-Regular.ea03f826587148b7335d.otf",
+    "static/media/Proxima Nova Condensed Black.otf": "/ajargrey-portfolio-react/static/media/Proxima Nova Condensed Black.dd24974ba837d4cc9156.otf",
+    "static/media/Proxima Nova Extra Condensed Extrabold.otf": "/ajargrey-portfolio-react/static/media/Proxima Nova Extra Condensed Extrabold.d2546b5888c012d6edf6.otf",
+    "static/media/GodotLogo.png": "/ajargrey-portfolio-react/static/media/GodotLogo.c736df303df0d47df6a0.png",
+    "static/media/RageLogo.png": "/ajargrey-portfolio-react/static/media/RageLogo.a17df76f0f3f5e55e9d3.png",
+    "static/media/logo.svg": "/ajargrey-portfolio-react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/ajargrey-portfolio-react/index.html",
+    "main.22722d79.css.map": "/ajargrey-portfolio-react/static/css/main.22722d79.css.map",
+    "main.1cd1c60f.js.map": "/ajargrey-portfolio-react/static/js/main.1cd1c60f.js.map",
+    "453.9afd9835.chunk.js.map": "/ajargrey-portfolio-react/static/js/453.9afd9835.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22722d79.css",
+    "static/js/main.1cd1c60f.js"
+  ]
+}
